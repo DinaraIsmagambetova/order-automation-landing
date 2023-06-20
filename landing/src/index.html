@@ -11,7 +11,8 @@
 <body class="min-h-screen">
 <div class="bg-white">
   <div class="relative overflow-hidden">
-    <!-- This example requires Tailwind CSS v2.0+ -->
+
+<!-- header part -->
 <header class="bg-white">
   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
     <div class="w-full py-6 flex items-center justify-between border-b lg:border-none">
@@ -34,20 +35,20 @@
         <button type="button" class="inline-flex items-center px-3.5 py-2 border border-transparent text-sm leading-4 font-medium rounded-full shadow-sm text-white bg-[#1C64F2] hover:bg-[#0C53DF] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Get started</button>
       </div>
     <div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
-      <a href="#" class="text-base font-medium text-white hover:text-indigo-50"> Solutions </a>
+      <a href="#" class="text-base font-medium text-white hover:text-indigo-50"> Product </a>
+
+      <a href="#" class="text-base font-medium text-white hover:text-indigo-50"> Features </a>
+
+      <a href="#" class="text-base font-medium text-white hover:text-indigo-50"> Marketplace </a>
 
       <a href="#" class="text-base font-medium text-white hover:text-indigo-50"> Pricing </a>
-
-      <a href="#" class="text-base font-medium text-white hover:text-indigo-50"> Docs </a>
-
-      <a href="#" class="text-base font-medium text-white hover:text-indigo-50"> Company </a>
     </div>
   </nav>
 </header>
 
     <main>
-       <!-- introducing -->
-       <div class="relative pt-16 sm:pt-24 lg:pt-32 ">
+      <!-- introducing part-->
+       <div class="relative max-w-2xl mx-auto py-64 px-4 sm:px-6 lg:max-w-7xl lg:py-48 lg:px-8 ">
         <div class="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl space-y-16">
           <div>
             <p class="mt-2 text-3xl font-extrabold text-gray-900  sm:text-4xl">Introducing Our Revolutionary Food Ordering System for Restaurants!</p>
@@ -59,32 +60,7 @@
         </div>
       </div>
 
-      <div class="relative bg-white ">
-        <p class="mt-20 max-w-md mx-auto font-bold text-m text-black">The world’s most innovative companies use our system</p>
-        
-    <!-- Logo Cloud -->
-    <section aria-labelledby="customer-heading" class="max-w mx-auto py-20 px-4 sm:px-6 ">
-      <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <img class="h-12" src="images/image 1.png" alt="Tuple">
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <img class="h-12" src="images/image 1.png" alt="Mirage">
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <img class="h-12" src="images/image 1.png" alt="StaticKit">
-        </div>
-        <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-          <img class="h-12" src="images/image 1.png" alt="Transistor">
-        </div>
-        <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
-          <img class="h-12" src="images/image 1.png" alt="Workcation">
-        </div>
-      </div>
-    </section>
-      </div>
-
-
+      <!-- scan part -->
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-center min-h-screen  p-4 bg-[url('images/background.png')] space-x-32">
 
         <!-- Left Side -->
@@ -110,7 +86,7 @@
 
     </div>
 
-
+<!-- marketplace part  -->
 <div class="relative bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
   <div class="absolute inset-0">
     <div class="bg-white h-1/3 sm:h-2/3"></div>
@@ -200,10 +176,9 @@
 
 
 <div class="bg-[#10172A]">
-  <!-- Header and Page Header -->
   <div class="relative">
    
-    <!-- Page Header -->
+    <!-- pricing part -->
     <div class="relative max-w-2xl mx-auto py-24 px-4 sm:px-6 lg:max-w-7xl lg:py-32 lg:px-8">
       <div class="relative">
         <h1 class="text-lg text-center font-bold text-white sm:text-4xl sm:leading-none sm:tracking-tight lg:text-5xl">Simple pricing, for everyone.</h1>
@@ -220,45 +195,55 @@
       <div class="max-w-2xl mx-auto px-4 space-y-12 sm:px-6 lg:max-w-7xl lg:space-y-0 lg:px-4 lg:grid lg:grid-cols-3 lg:gap-x-8">
         <div class="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
           <div class="flex-1">
-            <h3 class="text-xl font-semibold text-[#1C64F2]">Hobby</h3>
+            <h3 class="text-xl font-semibold text-[#1C64F2]">Basic Package</h3>
             <p class="mt-4 flex items-baseline text-gray-900">
-              <span class="text-5xl font-extrabold tracking-tight">$19</span>
+              <span class="text-5xl font-bold tracking-tight">60.000tg</span>
               <span class="ml-1 text-xl font-semibold">/month</span>
             </p>
-            <p class="mt-6 text-gray-500">The perfect plan if you're just getting started with our product.</p>
+            <p class="mt-6 text-gray-500">Features included:</p>
 
             <!-- Feature list -->
             <ul role="list" class="mt-6 space-y-6">
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">5 products</span>
+                <span class="ml-3 text-gray-500">QR code and NFC integration for seamless ordering</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Up to 1,000 subscribers</span>
+                <span class="ml-3 text-gray-500">User-friendly menu site for customers</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Basic analytics</span>
+                <span class="ml-3 text-gray-500">Real-time order tracking on the admin dashboard</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">48-hour support response time</span>
+                <span class="ml-3 text-gray-500">Secure online payment processing</span>
+              </li>
+
+              <li class="flex">
+                <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="ml-3 text-gray-500">Basic customer support</span>
+              </li>
+
+              <li class="flex">
+                <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="ml-3 text-gray-500">Ideal for small restaurants or establishments looking to implement a simple and efficient food ordering system.</span>
               </li>
             </ul>
           </div>
@@ -268,55 +253,64 @@
 
         <div class="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
           <div class="flex-1">
-            <h3 class="text-xl font-semibold text-[#1C64F2]">Enterprice</h3>
+            <h3 class="text-xl font-semibold text-[#1C64F2]">Essential Package</h3>
 
             <p class="absolute top-0 py-1.5 px-4 bg-red-900 rounded-full shadow-md shadow-red-500 text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">Most popular</p>
             <p class="mt-4 flex items-baseline text-gray-900">
-              <span class="text-5xl font-extrabold tracking-tight">$49</span>
+              <span class="text-5xl font-bold tracking-tight">100.000tg</span>
               <span class="ml-1 text-xl font-semibold">/month</span>
             </p>
-            <p class="mt-6 text-gray-500">A plan that scales with your rapidly growing business.</p>
+            <p class="mt-6 text-gray-500">Features included:</p>
 
             <!-- Feature list -->
             <ul role="list" class="mt-6 space-y-6">
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">25 products</span>
+                <span class="ml-3 text-gray-500">All features of the Basic Package, plus:</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Up to 10,000 subscribers</span>
+                <span class="ml-3 text-gray-500">Customizable menu layouts and designs</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Advanced analytics</span>
+                <span class="ml-3 text-gray-500">Integration with popular payment gateways</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">24-hour support response time</span>
+                <span class="ml-3 text-gray-500">Enhanced order management tools</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Marketing automations</span>
+                <span class="ml-3 text-gray-500">Customer data analytics and insights</span>
+              </li>
+
+              <li class="flex">
+                <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="ml-3 text-gray-500">Email and chat-based customer support</span>
+              </li>
+
+              <li class="flex">
+                <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="ml-3 text-gray-500">Perfect for mid-sized restaurants that want to enhance their brand presence and gain deeper insights into customer behavior.</span>
               </li>
             </ul>
           </div>
@@ -326,41 +320,37 @@
 
         <div class="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
           <div class="flex-1">
-            <h3 class="text-xl font-semibold text-[#1C64F2]">Enterprise</h3>
+            <h3 class="text-xl font-semibold text-[#1C64F2]">Premium Package</h3>
             <p class="mt-4 flex items-baseline text-gray-900">
-              <span class="text-5xl font-extrabold tracking-tight">$48</span>
+              <span class="text-5xl font-bold tracking-tight">120.000tg</span>
               <span class="ml-1 text-xl font-semibold">/month</span>
             </p>
-            <p class="mt-6 text-gray-500">Dedicated support and infrastructure for your company.</p>
+            <p class="mt-6 text-gray-500">Features included:</p>
 
             <!-- Feature list -->
             <ul role="list" class="mt-6 space-y-6">
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Unlimited products</span>
+                <span class="ml-3 text-gray-500">All features of the Essential Package, plus:</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Unlimited subscribers</span>
+                <span class="ml-3 text-gray-500">Advanced customization options for the menu site</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Advanced analytics</span>
+                <span class="ml-3 text-gray-500">Integration with loyalty programs and promotional campaigns</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -368,19 +358,24 @@
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Marketing automations</span>
+                <span class="ml-3 text-gray-500">Multi-location support for restaurant chains</span>
               </li>
 
               <li class="flex">
-                <!-- Heroicon name: outline/check -->
                 <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
-                <span class="ml-3 text-gray-500">Custom integrations</span>
+                <span class="ml-3 text-gray-500">API access for seamless integration with other systems</span>
+              </li>
+
+              <li class="flex">
+                <svg class="flex-shrink-0 w-6 h-6 text-[#1C64F2]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="ml-3 text-gray-500">Dedicated account manager and priority customer support</span>
               </li>
             </ul>
           </div>
